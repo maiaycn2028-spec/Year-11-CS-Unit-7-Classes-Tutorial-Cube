@@ -36,7 +36,7 @@ public class CubeTester {
 
     @Test
     public void TestSetterNegative() {
-        Cube cube = new Cube(5);
+        Cube cube = new (5);
         Throwable exception = assertThrows(IllegalArgumentException.class, ()->{ cube.setSide(-1);});
     }
 
